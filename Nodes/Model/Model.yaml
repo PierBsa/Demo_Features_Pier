@@ -1,0 +1,16 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Bool1
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Bool2
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variabile1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: AlarmQuery
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM Model WHERE Severity = 1"

@@ -1,0 +1,460 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=c5f0ba19a76db3b4778320fed1cc3b4a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=00d2abd5864cc9bfb90a62542b0c9be9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=071f08a43ce64469cefe8ead3da9eba8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2422e12dd7eaf339f9cb4b71a3436162
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Bool1"
+      Children:
+      - Name: Mode
+        Id: g=ff3f0f7acfd78e7cffefcb8075c39b46
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dda574eb2d3ab6f978e49405d773bcc6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=372260be75f3f3469b435f45c4683f4a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Macchina 1 - Messaggio di Allarme Bool1"}
+  - Name: AutoAcknowledge
+    Id: g=72af43cb4fe559d7555f0dd8420ce6ef
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=ec870ff8b4cf8980c8eb89a70897993e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: MaxTimeShelved
+    Id: g=17a8b89d8a1a635c987828a6885e44bf
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=b2e0e3eddf22c0d6e6c084dc5194ca6f
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=9a4659168f67cdbbff35ae96bf60e937
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm2
+  Id: g=2c02843db63028045060bcb39c90e6b5
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=52ed4c7ae19d39cd6e5185f38b3a417f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8e09661b8722a5f0e95cf0a2f03726fc
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b92b405f7a3d73539cb9c964cb20f7e1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Bool2"
+      Children:
+      - Name: Mode
+        Id: g=298d59e8931cd3b82d43c62a87b750e7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=72f13d48f87c3ced5d09d812008833e4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=a62707e72da46fc254e48fe83544a4a2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Macchina 2 - Messaggio di Allarme Bool2"}
+  - Name: AutoAcknowledge
+    Id: g=4aad83f517ad2721bc5e680d498eef48
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: AutoConfirm
+    Id: g=b287534436768bdb5223608e494f8d3c
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Severity
+    Id: g=33f3949203a6a63e910807e983148265
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 100
+  - Name: MaxTimeShelved
+    Id: g=7e144eeb05838505ee2e3ad139632bfc
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=6fe26d78cefef8a21852a39c7dc3fd0d
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=f1f5f84e1bb9cd2b7a71324a12961a55
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: ExclusiveLevelAlarm1
+  Id: g=abfae27d5197cd1086a76bcf1337bdaf
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=661c401df3e8e69e146f62ac9d67a1cc
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=7eca5b00552a3e0fbb59cf441b1a375e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variabile1"
+      Children:
+      - Name: Mode
+        Id: g=0f26286f6f12fe5640422c13d6496bb1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=00ac9ac18d9c9c7598b045c731195dfe
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=2b80c1d2fe64beeab82b2da996169ed5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Macchina 3 - Messaggio di Allarme Variabile1 Limite superato"}
+    Children:
+    - Name: HighHighStateMessage
+      Id: g=1638472afcffc8eed90eec586d70b0de
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: HighStateMessage
+      Id: g=dfc00211d90c0f125e34fd3b284ffff3
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: LowStateMessage
+      Id: g=506e4c29cfb31b93719bdea3f703d871
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: LowLowStateMessage
+      Id: g=638d144b6eaa17c549b4ee38d569c95a
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+  - Name: HighLimit
+    Id: g=bac0a613a41ccc4811760d23d441ef11
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 75.0
+  - Name: MaxTimeShelved
+    Id: g=e2a3635540fad7bc18f51a3c703033fb
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=7637e3c63a272d616ae4522c7ee32d4b
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=9f792f4b5a5987284ba4735c114ad16b
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: AlarmsHistoryExporter
+  Id: g=46b3c9999d83f1bdf04751a12ca76a91
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: CSVPath
+    Id: g=e60c0711743a8912532d83bfbfb78da2
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/Users/pierl/Documents/Rockwell Automation/FactoryTalk Optix/Projects/Demo_Features_Pier/ProjectFiles/Export_Alarms.csv"
+  - Name: FieldDelimiter
+    Id: g=f218b81dbd20747387f0a77c30842564
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: Table
+    Id: g=198032ec84bff0dfe5056d812b4f6253
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demo_Features_Pier/DataStores/Alarms_Database/Tables/AlarmsEventLogger1"
+    Children:
+    - Name: Kind
+      Id: g=876beb7e9d3ae7b3f6f396d387e38ccd
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
+  - Name: Query
+    Id: g=667f9f6e2a3f74582f77984881f1c7ac
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: StringFormatter1
+      Id: g=aaa8839d31f61cbee988edc6fa9656cf
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=2473499fed6e7d585c00661e5a3c49ac
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"\nSELECT * FROM {0:sql_identifier} WHERE Time BETWEEN {1:sql_literal} AND {2:sql_literal}"}
+      - Name: Source0
+        Id: g=5699a0014d26af807a576d24c1155da0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=3c1e7c851e04f6130efdab42d51c7ee4
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Table@BrowseName"
+          Children:
+          - Name: Mode
+            Id: g=fca664cf4bb78e334e40830858b4252c
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Source1
+        Id: g=c029bc90000bcd7f13817da745b7dfec
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=15653c438f0fc4a5dd5f42efc3966495
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../From"
+          Children:
+          - Name: Mode
+            Id: g=5e6dfe6d1982f2e2235a2130130f5569
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Source2
+        Id: g=e0ab2aa03b5fac2a0857d01e947e8918
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=39770145fb39ab6d40546a276549c637
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../To"
+          Children:
+          - Name: Mode
+            Id: g=109c0ebd47aa93191b285d6afd4bbb1b
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+  - Name: From
+    Id: g=a4b2a07a62c1f4a7d65ecadc5a4cde45
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-01-01T00:00:00.0000000"
+  - Name: To
+    Id: g=ab0ddf4ddc1a6210b4039f1aab7bf516
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2026-12-30T00:00:00.0000000"
+  - Class: Method
+    Name: Export
+    Id: g=ec681ed08aea3e1479b085bff61b9fea
+  - Name: WrapFields
+    Id: g=02309ac030d1279823d4fbb2a588c8cb
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ns=15;LibraryReference
+    Id: g=cf026466202bebcb0575064bb5e311cf
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 15
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "c2477f7ab544386ce428afcd6f7c6d5d",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: ImportAndExportAlarms
+  Id: g=9b15c7a256c2dcceee5f2c7a9e18d4a4
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=17c6da3133d1d52ff32891529435b7b7
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ImportAlarms
+    Id: g=a2b820d0ab4ec6dfca4a90ef60f34b5e
+  - Class: Method
+    Name: ExportAlarms
+    Id: g=a0a4bec77dd3dbb6f6922f2a85d669ed
+  - Name: CSVPath
+    Id: g=7b186bfdf5d89e791f13abe343705436
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/Users/pierl/Documents/Rockwell Automation/FactoryTalk Optix/Projects/Demo_Features_Pier/ProjectFiles/AlarmsImportExport/"
+  - Name: CharacterSeparator
+    Id: g=198ce4222e5749ae0162468ce3392ea5
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Id: g=aafed89669ecf9957d7fe9fe746df8f4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ns=15;LibraryReference
+    Id: g=5c12301d7dcbc8d63d812f9ca2ec7d2b
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 15
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "a6ee1600e16a9f4277b3724d54711be5",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
