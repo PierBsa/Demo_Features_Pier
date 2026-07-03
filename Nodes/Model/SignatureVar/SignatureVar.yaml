@@ -1,0 +1,102 @@
+Name: SignatureVar
+Type: FolderType
+Children:
+- Name: Led1
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Demo_Features_Pier/Security/Users/User1"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: Led2
+  Id: g=b92c493973be7bf8be239f2132d41396
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Demo_Features_Pier/Security/Users/User1"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+      - Name: User2
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Demo_Features_Pier/Security/Users/User2"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- Name: Led3
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Demo_Features_Pier/Security/Users/User1"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType

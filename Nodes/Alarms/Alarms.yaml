@@ -5,6 +5,7 @@ Children:
 - Name: DigitalAlarm1
   Id: g=c5f0ba19a76db3b4778320fed1cc3b4a
   Type: OffNormalAlarmController
+  Description: {"LocaleId":"en-US","Text":"1"}
   Children:
   - Name: NormalStateValue
     Id: g=00d2abd5864cc9bfb90a62542b0c9be9
@@ -95,6 +96,7 @@ Children:
 - Name: DigitalAlarm2
   Id: g=2c02843db63028045060bcb39c90e6b5
   Type: OffNormalAlarmController
+  Description: {"LocaleId":"en-US","Text":"2"}
   Children:
   - Name: NormalStateValue
     Id: g=52ed4c7ae19d39cd6e5185f38b3a417f
@@ -188,6 +190,7 @@ Children:
 - Name: ExclusiveLevelAlarm1
   Id: g=abfae27d5197cd1086a76bcf1337bdaf
   Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"3"}
   Children:
   - Name: InputValue
     Id: g=661c401df3e8e69e146f62ac9d67a1cc
@@ -283,6 +286,11 @@ Children:
     Id: g=9f792f4b5a5987284ba4735c114ad16b
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: Severity
+    Id: g=2789c29cbc05e824d2a956ab01c6dbb0
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 100
 - Name: AlarmsHistoryExporter
   Id: g=46b3c9999d83f1bdf04751a12ca76a91
   Type: NetLogic

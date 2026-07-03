@@ -14,3 +14,4 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "SELECT * FROM Model WHERE Severity = 1"
+- File: SignatureVar/SignatureVar.yaml
