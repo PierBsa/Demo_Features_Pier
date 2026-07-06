@@ -43,6 +43,9 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[112,238,109,46,205,47,162,250,6,195,190,53,85,163,125,156,82,139,120,146,206,151,212,67,183,249,50,184,163,124,80,175],"Salt":[122,32,224,175,23,18,243,126,15,77,94,69,37,54,79,70,14,100,248,64,113,53,211,13,248,142,118,41,42,31,111,231]}}]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=3fcb1ab1e36389e51617c4791e3e3bb6
 - Name: User2
   Id: g=fbab7536ee090982f68f9ab0ac2b053a
   Type: UserType
@@ -84,3 +87,6 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[56,45,192,163,170,235,126,183,119,150,67,110,17,46,204,114,148,177,240,124,211,96,250,176,33,36,118,241,173,103,51,196],"Salt":[168,76,200,6,146,126,238,47,78,244,238,151,203,206,64,175,21,172,190,71,111,96,17,133,216,72,101,146,89,75,116,185]}}]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=888bdd984bb643fa24c91db1c44a3490

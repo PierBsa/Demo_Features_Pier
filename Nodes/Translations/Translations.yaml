@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [56,2],
+    "Dimensions": [77,2],
     "Body": [
      "","en-US",
      "Timestamp","Timestamp",
@@ -66,6 +66,27 @@ Children:
      "SecondNote:","Second Note:",
      "SigningWorkflowSecondUserMustBeDifferentFromFirstUser","Second user must be different from first user",
      "AnotherUserIsSigningThisVariable","Another user is signing this variable",
-     "RequestSignOperation","Request sign operation for changing {0} from {1} to {2}"
+     "RequestSignOperation","Request sign operation for changing {0} from {1} to {2}",
+     "Create","Create",
+     "Groups","Groups",
+     "EmptyUserList","No users in list",
+     "PasswordChangedTooRecently","Password changed too recently",
+     "Roles","Roles",
+     "Delete","Delete",
+     "Apply","Apply",
+     "Locale:","Locale:",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username",
+     "UnableToGetUsers","Unable to get users",
+     "UsernameAlreadyExists","Username already exists",
+     "UserNotFound","User not found",
+     "PasswordAlreadyUsed","Password already used in the past",
+     "PasswordTooShort","Password too short",
+     "UnsupportedOperation","Unsupported operation",
+     "ChangesAppliedSuccessfully","Changes applied successfully",
+     "Change User","Change User",
+     "Your password has expired. Please enter a new one.","Your password has expired. Please enter a new one.",
+     "ChangeUserFormOutputSuccessMessage","Change User successful",
+     "ChangeUserFormOutputErrorMessage","Authentication failed",
+     "ChangeUserFormOutputPasswordExpired","Password expired"
     ]
    }

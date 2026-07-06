@@ -54,14 +54,6 @@ Project:
    Uri: 'urn:FTOptix:Retentivity:Net'
    Module: FTOptix.Retentivity.Net
    Version: 1.0
-  13:
-   Uri: 'urn:FTOptix:System'
-   Module: FTOptix.System
-   Version: 3.0
-  14:
-   Uri: 'urn:FTOptix:System:Net'
-   Module: FTOptix.System.Net
-   Version: 2.0
   15:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
@@ -107,15 +99,15 @@ Project:
    Module: FTOptix.AuditSigning.Net
    Version: 1.1
  Statistics:
-  TotalNodeCount: 3158
-  Objects: 635
-  ObjectTypes: 20
-  Variables: 2491
+  TotalNodeCount: 4130
+  Objects: 814
+  ObjectTypes: 31
+  Variables: 3269
   VariableTypes: 0
   DataTypes: 0
-  Methods: 12
-  References: 96
+  Methods: 16
+  References: 112
   ReferenceTypes: 0
-  Files: 26
+  Files: 27
  Nodes:
  - File: Nodes/Demo_Features_Pier.yaml

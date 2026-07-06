@@ -100,3 +100,19 @@ Children:
     - Name: WorkflowType
       Type: PropertyType
       DataType: WorkflowType
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1

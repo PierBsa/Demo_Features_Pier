@@ -728,7 +728,7 @@ Children:
               ArrayDimensions: [0]
               Value: [{"TypeId":{"Id":296},"Body":{"Name":"resultCode","DataType":{"Id":6},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
           - Class: Reference
-            Target: g=f9a8dfd13f213bb34c75d3cc784f56c8
+            Target: g=9588b1c84b10d0786d84ac3a950b63ac
             Direction: Forward
         - Name: Message
           Type: BaseDataVariableType
@@ -1130,7 +1130,7 @@ Children:
       Children:
       - Class: Method
         Name: SetOutputMessage
-        Id: g=f9a8dfd13f213bb34c75d3cc784f56c8
+        Id: g=9588b1c84b10d0786d84ac3a950b63ac
         Children:
         - Name: ns=0;InputArguments
           Type: BaseVariableType
